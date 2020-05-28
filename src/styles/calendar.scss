@@ -1,0 +1,60 @@
+@import 'variable.scss';
+
+.calendar {
+    max-width: 940px;
+    border-collapse: collapse;
+    table-layout: fixed;
+    @include text;
+    margin-bottom: 10px;
+    &__caption {
+        padding: 70px 25px;
+        background: #2196F3;
+        text-align: center;
+        font-size: 25px;
+      }
+    
+    &__prev {
+        cursor: pointer;
+        float: left;
+      }
+      
+    &__next {
+        cursor: pointer;
+        float: right;
+      }
+      
+    $border: 1px solid lightblue;
+
+    &__head {
+        color: black;
+        background-color: lighten($color: #2196F3, $amount: 25%);
+    }
+
+    &__body {
+        color: black;
+    }
+
+    &__cell {
+        position: relative;
+        height: 46px;
+        padding-bottom: 10px;
+        text-align: center;
+        vertical-align: bottom;
+        font-weight: bold;
+        cursor: pointer;
+        background-color: lighten($color: #2196F3, $amount: 40%);
+    }
+
+    &__cell:hover {
+        background-color: lighten($color: #2196F3, $amount: 25%);;
+    }
+}
+
+.now {
+    background-color: lighten($color: #2196F3, $amount: 25%);;
+}
+
+.dot {
+    margin: 0px;
+    color: red;
+}

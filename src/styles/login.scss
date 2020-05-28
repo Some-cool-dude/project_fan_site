@@ -1,0 +1,75 @@
+.login {
+    margin-top: 100px;
+
+    &__form {
+        width: 400px;
+    }
+
+    &__email, &__psw {
+        width: 100%;
+        padding: 15px;
+        padding-right: 0px;
+        margin: 5px 0 22px 0;
+        border: none;
+        background: #f1f1f1;
+        box-sizing: border-box;
+    }
+
+    &__change {
+        color: dodgerblue;
+    }
+
+    &__btn {
+        background-color: #4CAF50;
+        padding-left: 15px;
+        color: white;
+        padding: 16px 20px;
+        border: none;
+        border-radius: 4px;
+        width: 100%;
+        opacity: 0.9;
+    }
+
+    &__btn:hover {
+        opacity: 1;
+    }
+}
+
+.google-btn {
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.facebook-btn {
+  width: 100%;
+  opacity: 0.9;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #3B5998;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.facebook-btn:hover {
+  opacity: 1;
+}
+
+.valid {
+    color: green;
+  }
+  
+  .valid:before {
+    left: -35px;
+    content: '\2713';
+  }
+  
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    left: -35px;
+    content: '\2717';
+  }

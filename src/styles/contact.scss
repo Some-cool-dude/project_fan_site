@@ -1,0 +1,18 @@
+@import 'variable.scss';
+
+.contact {
+    @include text($color: black);
+    &__ava {
+        width: 300px;
+        border-radius: 50%;
+    }
+
+    &__ava:hover {
+        transform: scaleX(-1);
+    }
+
+    &__map {
+        width: 940px;
+        margin-bottom: 10px;
+    }
+}

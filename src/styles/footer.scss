@@ -1,0 +1,36 @@
+@import 'variable.scss';
+
+.footer {
+    @include common-flex($justify : center);
+    height: 88px;
+    border: 1px solid #d7d8d9;
+    background-color: #f7f9fa;
+    //margin-top: 30px;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    box-sizing: border-box;
+}
+
+.footer-menu {
+    display: flex;
+    width: $myWidth;
+    flex-direction: column;
+    bottom: 0;
+
+    &__text {
+        @include text($fontSize : 12px, $spacing : -0.12px, $color: black, $fontFam: auto);
+        line-height: 30px;
+        margin-top: 18px;
+        margin-bottom: 0px;
+    }
+
+    &__link {
+        text-align: center;
+        text-decoration: none;
+        @include text($color : #567ab0, $fontSize : 12px, $spacing : -0.12px, $fontFam: auto);
+        line-height: 30px;
+        margin-right: 10px;
+        line-height: 30px;
+    }
+}

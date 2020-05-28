@@ -1,0 +1,111 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "andrew@email.com",
+      "password": "d914e3ecf6cc481114a3f534a5faf90b",
+      "ava": "http://icons.iconarchive.com/icons/diversity-avatars/avatars/1024/batman-icon.png",
+      "socialType": "none",
+      "social-id": 0
+    },
+    {
+      "email": "example@email.com",
+      "password": "b326b65027680eff6d7509023e983790",
+      "ava": "https://www.shareicon.net/data/2015/09/18/103159_user_512x512.png",
+      "id": 2,
+      "socialType": "none",
+      "socialId": 0
+    },
+    {
+      "email": "consequence098@gmail.com",
+      "ava": "https://lh5.googleusercontent.com/-SMjqP3ljdYs/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuckKuVpWJl4QJ2PZh7XazVICx9XXwQ/s96-c/photo.jpg",
+      "socialId": "118249003302532909797",
+      "socialType": "google",
+      "id": 3
+    },
+    {
+      "email": "as6948285@gmail.com",
+      "ava": "https://lh6.googleusercontent.com/-O4cp48qBZU4/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuck5cubkoLScMzmxcWHiZGcjbecTTQ/s96-c/photo.jpg",
+      "socialId": "109086437189503203259",
+      "socialType": "google",
+      "id": 4
+    },
+    {
+      "email": "as6948285@gmail.com",
+      "ava": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=107866337614176&height=50&width=50&ext=1593204726&hash=AeRg7dU-xLYLlpgs",
+      "socialId": "107866337614176",
+      "socialType": "facebook",
+      "id": 5
+    }
+  ],
+  "notes": [
+    {
+      "userId": 1,
+      "day": 21,
+      "month": "May",
+      "year": 2020,
+      "text": "gh\nhj\nvbhg",
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "day": 18,
+      "month": "May",
+      "year": 2020,
+      "text": "fg",
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "day": 1,
+      "month": "April",
+      "year": 2020,
+      "text": "save",
+      "id": 5
+    }
+  ],
+  "posts": [
+    {
+      "userEmail": "andrew@email.com",
+      "userAva": "http://icons.iconarchive.com/icons/diversity-avatars/avatars/1024/batman-icon.png",
+      "date": "2020-05-23T16:09:44.040Z",
+      "id": 1,
+      "title": "Aaaaaaaaaaaa",
+      "text": "pain"
+    }
+  ],
+  "gallery": [
+    "https://cdn.collider.com/wp-content/uploads/2019/07/the-boys-karl-urban-slice.jpg",
+    "https://cdn.collider.com/wp-content/uploads/2019/07/the-boys-karl-urban-image-434x300.jpg",
+    "https://cdn.collider.com/wp-content/uploads/2019/07/the-boys-tv-show-image-karl-urban-450x300.jpg",
+    "https://i1.wp.com/thefanboyseo.com/wp-content/uploads/2019/07/IMG_20190727_120039.jpg?fit=1350%2C1149&ssl=1",
+    "https://cdn.thegeekherald.com/wp-content/uploads/2019/07/theboys-amazonoriginalsjpg-800x400.jpg",
+    "https://cdn.collider.com/wp-content/uploads/2019/07/the-boys-karl-urban-laz-alonso-450x300.jpg",
+    "https://cdn.collider.com/wp-content/uploads/2019/07/the-boys-jack-quaid-karl-urban.jpg",
+    "https://cdn.collider.com/wp-content/uploads/2019/07/the-boys-amazon-series.jpg",
+    "https://www.screengeek.net/wp-content/uploads/2017/09/the-boys.jpg",
+    "https://static2.cbrimages.com/wordpress/wp-content/uploads/2019/07/boys3.jpg",
+    "https://cdn.collider.com/wp-content/uploads/2019/07/the-boys-chace-crawford-erin-moriarty-elisabeth-shue-600x453.jpg",
+    "https://cdn.collider.com/wp-content/uploads/2019/07/the-boys-tv-show-cast-600x388.jpg",
+    "https://cdn.vox-cdn.com/thumbor/mwBPQipTuIBQMlPp1rR6zrYPKqI=/0x0:2880x1218/1200x800/filters:focal(1210x379:1670x839)/cdn.vox-cdn.com/uploads/chorus_image/image/64913141/The_Boys_Billy_Butcher__Karl_Urban_.0.png",
+    "https://www.sideshow.com/wp/wp-content/uploads/2019/06/Screen-Shot-2019-06-18-at-9.56.10-AM.png",
+    "https://static0.srcdn.com/wordpress/wp-content/uploads/2019/07/Butcher-and-Stormfront-in-The-Boys.jpg",
+    "https://cdn3-www.comingsoon.net/assets/uploads/gallery/the-boys/the-boys-9.jpg",
+    "https://static1.srcdn.com/wordpress/wp-content/uploads/2019/12/Rowan-Smyth-and-Antony-Starr-as-Homelander-in-The-Boys.jpg",
+    "http://cdn.epicstream.com/assets/uploads/newscover/1564682357the_boys.jpg",
+    "https://cdn3-www.comingsoon.net/assets/uploads/2019/07/the-boys-Boys_105_33954.V2_rgb.jpg",
+    "https://i0.wp.com/www.dekhnews.com/entertainment/wp-content/uploads/2019/12/images-26.jpg?resize=739%2C415&ssl=1",
+    "https://i.ytimg.com/vi/5S6Oc6AIlD8/maxresdefault.jpg",
+    "https://static0.cbrimages.com/wordpress/wp-content/uploads/2018/03/amazon-the-boys-mothers-milk.jpg",
+    "https://static3.cbrimages.com/wordpress/wp-content/uploads/2019/08/Billy-Butcher-Featured-Image.jpg",
+    "https://www.tvinsider.com/wp-content/uploads/2019/07/the-boys-Boys_103_22616.V1_rgb-1014x570.jpg",
+    "https://cdn.flickeringmyth.com/wp-content/uploads/2019/06/The-Boys-Official-Trailer-_-Prime-Video-1-49-screenshot-1.png",
+    "https://s3.birthmoviesdeath.com/images/made/Karl_Urban_Billy_Butcher_Header_1050_591_81_s_c1.jpg",
+    "https://static3.cbrimages.com/wordpress/wp-content/uploads/2019/09/pjimage-58.jpg",
+    "http://es.web.img2.acsta.net/newsv7/17/12/19/11/12/1218653.jpg",
+    "https://pmcdeadline2.files.wordpress.com/2017/12/erin-moriarty-1.jpg?w=446&h=299&crop=1",
+    "https://laverdadnoticias.com/export/sites/laverdad/img/2020/05/17/the_boys.png_836256107.png",
+    "https://townsquare.media/site/442/files/2019/04/the-boys-amazon.png?w=1200&h=0&zc=1&s=0&a=t&q=89",
+    "https://tvseriesfinale.com/wp-content/uploads/2018/04/karl-urban.jpg"
+  ]
+}

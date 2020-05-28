@@ -1,0 +1,70 @@
+@import 'variable.scss';
+
+.header-menu {
+    @include common-flex($wrap: wrap); 
+    padding-bottom: 4px;
+    background-color: black;
+    &__nav {
+        margin: 10px;
+        @include common-flex()
+    }
+
+    &__link {
+        text-decoration: none;
+        @include text;
+        margin-left: 18px;
+        text-align: start;
+    }
+    &__link:hover {
+        color: yellow;
+    }
+    &__dropdown {
+        overflow: hidden;
+        margin-left: 18px;
+    }
+    &__dropdown:hover .dropdown-content {
+        display: block;
+    }
+}
+.active {
+    color: yellow;
+    text-decoration: underline;
+}
+.dropdown-btn {
+    background-color: black;
+    @include text;
+    border: none;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:lighten($color: #000000, $amount: 15%);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    &__link {
+        float: none;
+        @include text;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+    &__link:hover {
+        color: yellow;
+    }
+}
+.user {
+    @include common-flex;
+    align-items: center;
+}
+.user-ava {
+    width: 18px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: white;
+}
+.user-name {
+    @include text;
+    margin-right: 10px;
+}

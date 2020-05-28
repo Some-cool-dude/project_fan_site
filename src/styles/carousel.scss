@@ -1,0 +1,44 @@
+@import 'variable.scss';
+
+.carousel {
+    position: relative;
+    &__img {
+        width: 100%;
+    }
+    &__slide {
+        display: none;
+    }
+    &__slide:first-child {
+        display: block;
+    }
+    &__next, &__prev {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -50px;
+        color: white;
+        font-weight: bold;
+        font-size: 30px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+    }
+    &__next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    &__next:hover, &__prev:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    &__caption {
+        color: white;
+        font-size: 18px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+    }
+  }
