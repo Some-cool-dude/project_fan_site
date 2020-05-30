@@ -1,0 +1,45 @@
+@import 'variable.scss';
+
+.star {
+    @include common-flex($justify: flex-start);
+    max-width: 940px;
+    width: 100%;
+    &__img {
+        width: 350px;
+        margin-right: 10px;
+    }
+
+    &__bio {
+        white-space: pre-wrap;
+        word-break: break-all;
+    }
+}
+
+.films {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    max-width: 940px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    @include text($color: black);
+
+    &__cell {
+        text-align: left;
+        padding: 16px;
+    }
+
+    &__row:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    &__head {
+        background-color: #f2f2f2;
+    }
+
+    &__caption {
+        font-size: 25px;
+        text-align: left;
+    }
+}

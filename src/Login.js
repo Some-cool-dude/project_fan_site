@@ -85,11 +85,11 @@ class Login extends React.Component {
       let res = await axios.get(`/api/users?socialId=${response.googleId}&socialType=google`, {cancelToken: this.signal.token});
       res.data = res.data[0]
       if(!res.data) {
-        res = await axios.post(`/api/users`, {email: response.profileObj.email, ava: response.profileObj.imageUrl, socialId: response.profileObj.googleId, socialType: "google"}, {cancelToken: this.signal.token});
+        res = await axios.post(`/api/users`, {socialId: response.profileObj.googleId, socialType: "google"}, {cancelToken: this.signal.token});
       }
-      this.props.cookies.set('email', res.data.email, {sameSite: 'lax'});
+      this.props.cookies.set('email', response.profileObj.email, {sameSite: 'lax'});
       this.props.cookies.set('id', res.data.id, {sameSite: 'lax'});
-      this.props.cookies.set('ava', res.data.ava, {sameSite: 'lax'});
+      this.props.cookies.set('ava', response.profileObj.imageUrl, {sameSite: 'lax'});
       this.props.show();
     }
     catch(err) {
@@ -109,11 +109,11 @@ class Login extends React.Component {
         let res = await axios.get(`/api/users?socialId=${response.id}&socialType=facebook`, {cancelToken: this.signal.token});
         res.data = res.data[0]
         if(!res.data) {
-          res = await axios.post(`/api/users`, {email: response.email, ava: response.picture.data.url, socialId: response.id, socialType: "facebook"}, {cancelToken: this.signal.token});
+          res = await axios.post(`/api/users`, {socialId: response.id, socialType: "facebook"}, {cancelToken: this.signal.token});
         }
-        this.props.cookies.set('email', res.data.email, {sameSite: 'lax'});
+        this.props.cookies.set('email', response.emai, {sameSite: 'lax'});
         this.props.cookies.set('id', res.data.id, {sameSite: 'lax'});
-        this.props.cookies.set('ava', res.data.ava, {sameSite: 'lax'});
+        this.props.cookies.set('ava', response.picture.data.url, {sameSite: 'lax'});
         this.props.show();
       }
       catch(err) {

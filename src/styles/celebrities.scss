@@ -1,0 +1,28 @@
+@import 'variable.scss';
+
+.celebrities {
+    @include common-flex($wrap: wrap, $justify : flex-start);
+    max-width: 940px;
+}
+
+.celebrity {
+    width: 200px;
+    margin: 10px;
+    &__link {
+        display: block;
+        text-decoration: none;
+        @include text($color : black, $spacing : -0.35px);
+    }
+
+    &__image {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    &__text {
+        @include text($color : #959595, $fontSize : 14px);
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}

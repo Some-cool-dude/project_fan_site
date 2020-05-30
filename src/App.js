@@ -8,9 +8,12 @@ import Footer from './Footer';
 import Login from './Login';
 import Signup from './Signup';
 import Posts from './Posts';
+import Post from './Post';
 import Gallery from './Gallery';
 import Calendar from './Calendar';
 import Contact from './Contact';
+import Celebrities from './Celebrities';
+import Celebrity from './Celebrity';
 import './styles/style.scss';
 
 class App extends React.Component {
@@ -45,8 +48,11 @@ class App extends React.Component {
           <Route exact path="/" render={(props) => <Main {...props} cookies={this.cookies} />} />
           <Route path="/login" render={(props) => <Login {...props} show={this.show} changeAuth={this.changeAuth} cookies={this.cookies} />} />
           <Route path="/signup" render={(props) => <Signup {...props} show={this.show} changeAuth={this.changeAuth} cookies={this.cookies} />} />
+          <Route path="/posts/:id" component={Post} />
           <Route path="/posts" render={(props) => <Posts {...props} cookies={this.cookies} />} />
           <Route path="/gallery" component={Gallery} />
+          <Route path="/celebrities/:link" component={Celebrity} />
+          <Route path="/celebrities" component={Celebrities} />
           <Route path="/calendar" render={(props) => <Calendar {...props} cookies={this.cookies} />} />
           <Route path="/contact" component={Contact} />
         </Switch>

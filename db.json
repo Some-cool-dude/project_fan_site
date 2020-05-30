@@ -7,35 +7,6 @@
       "ava": "http://icons.iconarchive.com/icons/diversity-avatars/avatars/1024/batman-icon.png",
       "socialType": "none",
       "social-id": 0
-    },
-    {
-      "email": "example@email.com",
-      "password": "b326b65027680eff6d7509023e983790",
-      "ava": "https://www.shareicon.net/data/2015/09/18/103159_user_512x512.png",
-      "id": 2,
-      "socialType": "none",
-      "socialId": 0
-    },
-    {
-      "email": "consequence098@gmail.com",
-      "ava": "https://lh5.googleusercontent.com/-SMjqP3ljdYs/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuckKuVpWJl4QJ2PZh7XazVICx9XXwQ/s96-c/photo.jpg",
-      "socialId": "118249003302532909797",
-      "socialType": "google",
-      "id": 3
-    },
-    {
-      "email": "as6948285@gmail.com",
-      "ava": "https://lh6.googleusercontent.com/-O4cp48qBZU4/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuck5cubkoLScMzmxcWHiZGcjbecTTQ/s96-c/photo.jpg",
-      "socialId": "109086437189503203259",
-      "socialType": "google",
-      "id": 4
-    },
-    {
-      "email": "as6948285@gmail.com",
-      "ava": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=107866337614176&height=50&width=50&ext=1593204726&hash=AeRg7dU-xLYLlpgs",
-      "socialId": "107866337614176",
-      "socialType": "facebook",
-      "id": 5
     }
   ],
   "notes": [
@@ -107,5 +78,39 @@
     "https://laverdadnoticias.com/export/sites/laverdad/img/2020/05/17/the_boys.png_836256107.png",
     "https://townsquare.media/site/442/files/2019/04/the-boys-amazon.png?w=1200&h=0&zc=1&s=0&a=t&q=89",
     "https://tvseriesfinale.com/wp-content/uploads/2018/04/karl-urban.jpg"
+  ],
+  "celebrities": [
+    {
+      "id": 1,
+      "name": "Jack Quaid",
+      "role": "as Hughie",
+      "img": "https://resizing.flixster.com/mAhDZ9ywjQZio4-6kdvaUd91P_w=/640x890/v1.bjs4MDk0NDg7ajsxODQ1OTsxMjAwOzY0MDs4OTA",
+      "bio": "Unavaliable",
+      "link": "jack_quaid",
+      "films": [
+        {
+          "title": "Plus One",
+          "credit": "Ben",
+          "year": "2019"
+        },
+        {
+          "title": "Mais Um",
+          "credit": "Actor",
+          "year": "2019"
+        }
+      ],
+      "tv": [
+        {
+          "title": "Jimmy Kimmel Live",
+          "credit": "Guest",
+          "year": "2019"
+        },
+        {
+          "title": "The Boys",
+          "credit": "Hughie",
+          "year": "2019"
+        }
+      ]
+    }
   ]
 }

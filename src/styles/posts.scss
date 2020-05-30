@@ -38,6 +38,9 @@
 
     &__text {
         white-space: pre-wrap;
+        height: 115px;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     &__search {
@@ -116,6 +119,15 @@
   
   .post:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .space {
+    flex-grow: 1;
+  }
+
+  .share {
+    color: black;
+    font-size: 25px;
   }
 
   .pagination__btn {

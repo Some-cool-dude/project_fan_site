@@ -1,0 +1,21 @@
+@import 'variable.scss';
+
+.cast {
+    @include common-flex();
+    align-items: baseline;
+
+    &__text {
+        flex-shrink: 0;
+        @include text($color: black, $fontSize : 24px, $spacing : -0.24px);
+        line-height: 30px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 10px; 
+    }
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: #333333;
+}

@@ -229,6 +229,10 @@ class Calendar extends React.Component {
   render() { 
     return (
         <main className="content" onClick={this.closeModal}>
+            <ul className="breadcrumb">
+                <li className="breadcrumb__elem"><a className="breadcrumb__link" href="/">Home</a></li>
+                <li className="breadcrumb__elem">Calendar</li>
+            </ul> 
             {this.state.loading ? <div className="loader"></div> :
             <>
             {this.err && <h2 className="error">{this.err}</h2>}
@@ -246,7 +250,7 @@ class Calendar extends React.Component {
                         </div>
                     </div>
                 </div>}
-                <table className="calendar" style={{width: "100%"}}>
+                <table className="calendar">
                     <caption className="calendar__caption">
                     <a className="calendar__prev" onClick={this.prev}>&#10094;</a>
                         <a className="calendar__next" onClick={this.next}>&#10095;</a>
@@ -267,10 +271,12 @@ class Calendar extends React.Component {
                         {this.arr}
                     </tbody>
                 </table>
-                <div>
-                    <p>This is your own calendar. You could add some notes to this and nobody exept you will see it.</p>
+                <div className="content__text">
+                    <p>This is your own calendar. You could add some notes to this and nobody exept you will see it. Your can write there whatever you want</p>
                     <p>To add your note just click on some day in calendar, enter your text and click on save button.</p>
-                    <p>To delete some note just find it and delete text.</p>
+                    <p>Red dot under day means that your have note there.</p>
+                    <p>To delete some note just open it and delete all text.</p>
+                    <p>You cannot add note to empty cell.</p>
                 </div>
                 </>}
         </main>

@@ -19,10 +19,10 @@ html, body {
     padding-bottom:88px;
     margin-left: 10px;
     margin-right: 10px;
+    font-family: $myFont;
 
     &__title {
       max-width: 940px;
-      font-family: $myFont;
     }
 
     &__text {
@@ -132,4 +132,48 @@ html, body {
       background-color: #008CBA;
       color: white;
   }
+}
+
+.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+  width: 100%;
+  max-width: 940px;
+  box-sizing: border-box;
+
+  &__elem+&__elem:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+
+  &__elem {
+    display: inline;
+    @include text($color: black);
+  }
+
+  &__link {
+    color: #0275d8;
+    text-decoration: none;
+  }
+
+  &__link:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+}
+
+.social {
+  @include common-flex
+}
+
+.more {
+  text-decoration: none;
+  color: #0275d8;
+}
+
+.more:hover {
+  color: #01447e;
+  text-decoration: underline;
 }

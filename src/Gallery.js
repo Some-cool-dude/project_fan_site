@@ -64,6 +64,10 @@ class Gallery extends React.Component {
   render() {
     return (
       <main className="content">
+        <ul className="breadcrumb">
+            <li className="breadcrumb__elem"><a className="breadcrumb__link" href="/">Home</a></li>
+            <li className="breadcrumb__elem">Gallery</li>
+        </ul> 
         {this.state.show &&
         <div className="image-modal">
             <span className="image-modal__close-btn" onClick={() => this.setState({show: false})}>&times;</span>

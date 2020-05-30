@@ -175,6 +175,10 @@ class Posts extends React.Component {
   render() {
     return (
       <main className="content" onClick={this.closeModal}>
+        <ul className="breadcrumb">
+            <li className="breadcrumb__elem"><a className="breadcrumb__link" href="/">Home</a></li>
+            <li className="breadcrumb__elem">Posts</li>
+        </ul> 
         {this.state.err && <h2 className="error">{this.state.err}</h2>}
         {this.state.modal &&
         <div ref={this.modal} className="modal">
@@ -215,11 +219,16 @@ class Posts extends React.Component {
               <img className="post__user-ava" src={post.userAva} />
               <span className="post__user-content">{post.userEmail}</span>
               <span className="post__user-content">{new Date(post.date).toUTCString()}</span>
+              <span className="space"></span>
+              <a className="share" href={`/posts/${post.id}`}>
+                <i className="fa fa-share"></i>
+              </a>
             </div>
             {post.img && <img className="post__img" src={post.img} alt="post image" />}
             <div className="post__content">
               <h4><b>{post.title}</b></h4>
               <p className="post__text">{post.text}</p>
+              {post.text.split("\n").length - 1 >= 6 && <a className="more" href={`/posts/${post.id}`}>show more <i className="fa fa-caret-down"></i></a>}
             </div>
             {post.userEmail === this.user &&
               <div className="post__buttons">
