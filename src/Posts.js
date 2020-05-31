@@ -173,12 +173,12 @@ class Posts extends React.Component {
                     <input className="modal__content-img" type="text" defaultValue={this.post.img} onChange={(e) => this.post.img = e.target.value}/>
                 </label>
                 <label>
-                    <b>Title:</b>
-                    <input className="modal__content-title" type="text" defaultValue={this.post.title} onChange={(e) => this.post.title = e.target.value}/>
+                    <b>Title(required):</b>
+                    <input className="modal__content-title" type="text" defaultValue={this.post.title} placeholder="fill this field or post will not be saved" onChange={(e) => this.post.title = e.target.value}/>
                 </label>
                 <label>
                   <b>Text:</b>
-                  <textarea className="modal__content-text" defaultValue={this.post.text} placeholder="Write some text" onChange={(e) => this.post.text = e.target.value}/>
+                  <textarea className="modal__content-text" defaultValue={this.post.text} onChange={(e) => this.post.text = e.target.value}/>
                 </label>
                 <div className="modal__actions">
                     <button className="modal__cancel-btn" onClick={() => this.setState({modal: false})}>Cancel</button>
@@ -211,8 +211,8 @@ class Posts extends React.Component {
             {post.img && <img className="post__img" src={post.img} alt="post image" />}
             <div className="post__content">
               <h4><b>{post.title}</b></h4>
-              <p className="post__text">{post.text}</p>
-              {post.text.split("\n").length - 1 >= 6 && <a className="more" href={`/posts/${post.id}`}>show more <i className="fa fa-caret-down"></i></a>}
+              {post.text && <p className="post__text">{post.text}</p>}
+              {post.text && post.text.split("\n").length - 1 >= 6 && <a className="more" href={`/posts/${post.id}`}>show more <i className="fa fa-caret-down"></i></a>}
             </div>
             {post.userEmail === this.user &&
               <div className="post__buttons">

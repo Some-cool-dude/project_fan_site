@@ -29,6 +29,7 @@
         display: block;
         border-radius: 5px;
         max-height: 300px;
+        max-width: 100%;
         margin: auto
     }
 
@@ -38,7 +39,7 @@
 
     &__text {
         white-space: pre-wrap;
-        height: 115px;
+        max-height: 115px;
         overflow: hidden;
         text-overflow: ellipsis;
     }

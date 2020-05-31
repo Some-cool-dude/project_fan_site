@@ -8,13 +8,13 @@
     position:absolute;
     width:100%;
     box-sizing: border-box;
+    bottom: 0;
 }
 
 .footer-menu {
     display: flex;
     width: $myWidth;
     flex-direction: column;
-    bottom: 0;
 
     &__text {
         @include text($fontSize : 12px, $spacing : -0.12px, $color: black, $fontFam: auto);

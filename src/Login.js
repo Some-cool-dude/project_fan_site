@@ -111,7 +111,7 @@ class Login extends React.Component {
         if(!res.data) {
           res = await axios.post(`/api/users`, {socialId: response.id, socialType: "facebook"}, {cancelToken: this.signal.token});
         }
-        this.props.cookies.set('email', response.emai, {sameSite: 'lax'});
+        this.props.cookies.set('email', response.email, {sameSite: 'lax'});
         this.props.cookies.set('id', res.data.id, {sameSite: 'lax'});
         this.props.cookies.set('ava', response.picture.data.url, {sameSite: 'lax'});
         this.props.show();
@@ -125,7 +125,6 @@ class Login extends React.Component {
   }
 
   render() {
-    console.log(process.env.clientId)
     return (
        <main className="content">
          <div className="auth">
