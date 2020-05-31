@@ -125,6 +125,7 @@ class Login extends React.Component {
   }
 
   render() {
+    console.log(process.env.clientId)
     return (
        <main className="content">
          <div className="login">
@@ -142,7 +143,7 @@ class Login extends React.Component {
               <p>Create new account? <a className="login__change" href="/signup" onClick={this.redirect}>Sign up</a>.</p>
               <GoogleLogin
                 className="google-btn"
-                clientId="219069550398-20c0t4f1l8bn8571svp50psjkh75sgmd.apps.googleusercontent.com"
+                clientId={process.env.clientId}
                 buttonText="Login"
                 onSuccess={this.success}
                 onFailure={this.failure}
@@ -150,7 +151,7 @@ class Login extends React.Component {
               />
               <FacebookLogin
                 cssClass="facebook-btn"
-                appId="564989494220175"
+                appId={process.env.appId}
                 fields="name,email,picture"
                 callback={this.responseFacebook}
                 scope="public_profile"

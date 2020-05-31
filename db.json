@@ -85,31 +85,274 @@
       "name": "Jack Quaid",
       "role": "as Hughie",
       "img": "https://resizing.flixster.com/mAhDZ9ywjQZio4-6kdvaUd91P_w=/640x890/v1.bjs4MDk0NDg7ajsxODQ1OTsxMjAwOzY0MDs4OTA",
-      "bio": "Unavaliable",
+      "bio": "Jack Quaid was born on April 24, 1992 in Los Angeles, California, USA as Jack Henry Quaid. He is an actor and writer, known for The Hunger Games (2012), The Hunger Games: Catching Fire (2013) and Logan Lucky (2017).",
       "link": "jack_quaid",
       "films": [
-        {
-          "title": "Plus One",
-          "credit": "Ben",
-          "year": "2019"
-        },
-        {
-          "title": "Mais Um",
-          "credit": "Actor",
-          "year": "2019"
-        }
+        {"title": "Plus One", "credit": "Ben", "year": "2019"},
+        {"title": "Mais Um", "credit": "Actor", "year": "2019"},
+        {"title": "Smallfoot", "credit": "Pilot", "year": "2018"},
+        {"title": "Rampage", "credit": "Connor", "year": "2018"},
+        {"title": "Tragedy Girls", "credit": "Actor", "year": "2017"},
+        {"title": "Logan Luck", "credit": "Fish Bang", "year": "2017"},
+        {"title": "Ithaca", "credit": "Marcus Macauley", "year": "2016"},
+        {"title": "Just Before I Go", "credit": "Dylan", "year": "2015"},
+        {"title": "Running Wild", "credit": "Eric", "year": "2015"},
+        {"title": "The Hunger Games: Catching Fire", "credit": "Marvel", "year": "2013"},
+        {"title": "Just 45 Minutes From Broadway", "credit": "Danny", "year": "2012"},
+        {"title": "The Hunger Games", "credit": "Marvel", "year": "2012"}
       ],
       "tv": [
-        {
-          "title": "Jimmy Kimmel Live",
-          "credit": "Guest",
-          "year": "2019"
-        },
-        {
-          "title": "The Boys",
-          "credit": "Hughie",
-          "year": "2019"
-        }
+        {"title": "Jimmy Kimmel Live", "credit": "Guest", "year": "2019"},
+        {"title": "The Boys", "credit": "Hughie", "year": "2019"},
+        {"title": "Sea Oak", "credit": "", "year": "2017"},
+        {"title": "Vinyl", "credit": "Clark Morelle", "year": "2016"}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Elisabeth Shue",
+      "role": "as Madelyn Stillwell",
+      "img": "https://resizing.flixster.com/V38A-MPQIOYkORSEiMzCotTTRbM=/275x230/v1.cjs0MDQ2NTtqOzE4NDUwOzEyMDA7Mjc1OzIzMA",
+      "bio": "Elisabeth Shue was born in Wilmington, Delaware, to Anne Brewster (Wells), who worked for the Chemical Banking Corporation, and James William Shue, a lawyer and real estate developer. She is of German and English ancestry, including descent from Mayflower passengers. Shue's parents divorced while she was in the fourth grade.",
+      "link": "elisabeth_shue",
+      "films": [
+        {"title": "Greyhound", "credit": "Actor", "year": "2020"},
+        {"title": "Death Wish", "credit": "Lucy Kersey", "year": "2018"},
+        {"title": "Death wish en español", "credit": "Actor", "year": "2018"},
+        {"title": "Battle of the Sexes", "credit": "Priscilla Riggs ", "year": "2017"},
+        {"title": "Behaving Badly", "credit": "Pamela Bender", "year": "2014"},
+        {"title": "Chasing Mavericks", "credit": "Kristy Moriarity", "year": "2012"},
+        {"title": "House at the End of the Street", "credit": "Sarah", "year": "2012"},
+        {"title": "Hope Springs", "credit": "Karen, the Bartender", "year": "2012"}
+      ],
+      "tv": [
+        {"title": "The Boys", "credit": "Madelyn Stillwell", "year": "2019"},
+        {"title": "The Chew", "credit": "Guest", "year": "2017"},
+        {"title": "American Dad (target for inaccurate feed data)", "credit": "Voice", "year": "2013 2012"}
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Jessie T. Usher",
+      "role": "as A-Train",
+      "img": "https://resizing.flixster.com/kOuUp1tBuHoJew6yT2OOepqot-M=/444x594/v1.cjs0MzY1MjtqOzE4NDUwOzEyMDA7NDQ0OzU5NA",
+      "bio": "Born a leap year child he excelled academically from elementary through high school as a top honor student. He graduated class salutatorian before moving straight to the Dean's List in college, studying culinary arts and earning the honor of being a member of the Alpha Gamma Sigma Honor Society. Jessie was inspired to act at an early age.",
+      "link": "jessie_usher",
+      "films": [
+        {"title": "The Banker", "credit": "Tony Jackson ", "year": "2020"},
+        {"title": "Dangerous Lies (Windfall)", "credit": "Adam", "year": "2020"},
+        {"title": "Shaft", "credit": "JJ Shaft ", "year": "2019"},
+        {"title": "Ride", "credit": "James", "year": "2018"},
+        {"title": "Almost Christmas", "credit": "Evan", "year": "2016"},
+        {"title": "Independence Day: Resurgence", "credit": "Dylan Hiller", "year": "2016"},
+        {"title": "When The Game Stands Tall", "credit": "Tayshon Lanear", "year": "2014"},
+        {"title": "Teenage", "credit": "American Boy", "year": "2014"}
+      ],
+      "tv": [
+        {"title": "The Boys", "credit": "A-Train", "year": "2019"},
+        {"title": "The Chew", "credit": "Guest", "year": "2016"},
+        {"title": "The Wendy Williams Show", "credit": "Guest", "year": "2016"}
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Antony Starr",
+      "role": "as Homelander",
+      "img": "https://resizing.flixster.com/p_ZGUVA4wypGPbkH8aObzxSaz8Q=/241x215/v1.cjs0NDI3NTtqOzE4NDUwOzEyMDA7MjQxOzIxNQ",
+      "bio": "Antony Starr was born on October 25, 1975 in New Zealand. He is an actor, known for Outrageous Fortune (2005), Wish You Were Here (2012) and Without a Paddle (2004). ",
+      "link": "antony_starr",
+      "films": [
+        {"title": "Gutterbee", "credit": "Mike", "year": "2019"},
+        {"title": "Wish You Were Here", "credit": "Jeremy", "year": "2013"},
+        {"title": "The World's Fastest Indian", "credit": "Jeff", "year": "2005"},
+        {"title": "Without a Paddle", "credit": "Billy Newwood", "year": "2004"},
+        {"title": "Terror Peak", "credit": "Jason", "year": "2003"}
+      ],
+      "tv": [
+        {"title": "The Boys", "credit": "Homelander", "year": "2019"},
+        {"title": "American Gothic", "credit": "Garrett Hawthorne", "year": "2016"},
+        {"title": "Banshee", "credit": "Director Lucas Hood", "year": "2016"}
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Erin Moriarty",
+      "role": "as Starlight",
+      "img": "https://resizing.flixster.com/gD-q8DdZz7Zo0_MiBVjYs4dAt8Y=/1746x1746/v1.cjs0Nzc2MTtqOzE4NDUwOzEyMDA7MTc0NjsxNzQ2",
+      "bio": "New York City-born Erin Moriarty launched her acting career in a way many hopefuls dream of: with an awards-recognized project. Erin first appeared on screen in the Emmy-nominated soap opera One Life to Live (1968) in 2010, playing the character Whitney Bennett in six episodes.",
+      "link": "erin_morirarty",
+      "films": [
+        {"title": "The Extraordinary Journey of the Fakir", "credit": "Actor", "year": "2019"},
+        {"title": "Monster Party", "credit": "Alexis Dawson", "year": "2018"},
+        {"title": "The Miracle Season", "credit": "Kelly", "year": "2018"},
+        {"title": "Blood Father", "credit": "Lydia", "year": "2016"},
+        {"title": "Captain Fantastic", "credit": "Karin", "year": "2016"},
+        {"title": "Crawlspace", "credit": "Actor", "year": "2015"},
+        {"title": "After the Dark", "credit": "Vivian", "year": "2014"},
+        {"title": "The Kings of Summer", "credit": "Kelly", "year": "2013"},
+        {"title": "The Watch", "credit": "Chelsea", "year": "2012"}
+      ],
+      "tv": [
+        {"title": "The Boys", "credit": "Starlight", "year": "2019"},
+        {"title": "Marvel's Jessica Jones", "credit": "Hope", "year": "2019"},
+        {"title": "Sunday Morning", "credit": "Reporter", "year": "2014"},
+        {"title": "Red Widow", "credit": "Natalie Walraven", "year": "2013"}
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Dominique McElligott",
+      "role": "as Queen Maeve",
+      "img": "https://resizing.flixster.com/QNZkcI29juCRJPXusPUWjEvPP5c=/414x369/v1.cjs0MzYzMztqOzE4NDUwOzEyMDA7NDE0OzM2OQ",
+      "bio": "Dominique McElligott is an Irish actress. She starred in Moon (2009) and the RTÉ television series Raw before leaving to film Leap Year (2010). From 2011 to 2012, she played a lead role in the AMC series Hell on Wheels. In 2015, she starred in ABC's The Astronaut Wives Club.",
+      "link": "dominique_mcelligott",
+      "films": [
+        {"title": "2/1", "credit": "Actor", "year": "2020"},
+        {"title": "Not Fade Away", "credit": "Joy Deitz", "year": "2012"},
+        {"title": "Blackthorn", "credit": "Etta", "year": "2011"},
+        {"title": "The Guard", "credit": "Aoife O'Carroll", "year": "2011"},
+        {"title": "Captain Fantastic", "credit": "Karin", "year": "2016"},
+        {"title": "Leap Year", "credit": "Bride", "year": "2010"},
+        {"title": "Moon", "credit": "Tess Bell", "year": "2009"},
+        {"title": "Satellites & Meteorites", "credit": "Actor", "year": "2008"},
+        {"title": "Dark Floors", "credit": "Actor", "year": "2008"}
+      ],
+      "tv": [
+        {"title": "The Boys", "credit": "Queen Maeve", "year": "2019"},
+        {"title": "Hell on Wheels", "credit": "Lily Bell", "year": "2016"},
+        {"title": "The Astronaut Wives Club", "credit": "Louise Shepard", "year": "2015"}
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Chace Crawford",
+      "role": "as The Deep",
+      "img": "https://resizing.flixster.com/AY2YET71nNF0V73zAb_YdQu8mrI=/275x275/v1.cjs0NzY0ODtqOzE4NDUwOzEyMDA7Mjc1OzI3NQ",
+      "bio": "Christopher Chace Crawford was born in Lubbock, Texas, the son of Dana (Plott), a teacher, and Chris Wayne Crawford, a dermatologist. He grew up in Plano, Texas, and has a younger sister, Candice Crawford Romo, who studied broadcast journalism and won the Miss Missouri USA title in 2008.",
+      "link": "chace_crawford",
+      "films": [
+        {"title": "Inheritance", "credit": "William", "year": "2020"},
+        {"title": "Nighthawks", "credit": "Stan", "year": "2019"},
+        {"title": "Charlie Says", "credit": "Actor", "year": "2019"},
+        {"title": "All About Nina", "credit": "Joe", "year": "2018"},
+        {"title": "I Do... Until I Don't", "credit": "Actor", "year": "2017"},
+        {"title": "Undrafted", "credit": "Arthur Barone Executive Producer", "year": "2016"},
+        {"title": "Mountain Men", "credit": "Cooper", "year": "2016"},
+        {"title": "Peace, Love, & Misunderstanding", "credit": "Cole", "year": "2012"},
+        {"title": "What to Expect When You're Expecting", "credit": "Marco", "year": "2012"}
+      ],
+      "tv": [
+        {"title": "The Boys", "credit": "The Deep", "year": "2019"},
+        {"title": "Casual", "credit": "Byron", "year": "2018"},
+        {"title": "The Talk", "credit": "Guest", "year": "2016"},
+        {"title": "Blood & Oil", "credit": "Billy Lefever", "year": "2015"}
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Nathan Mitchell",
+      "role": "as Black Noir",
+      "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpublicdomainvectors.org%2Fphotos%2FMale-Avatar.png&f=1&nofb=1",
+      "bio": "Nathan was born in Canada and is of Jamaican and Trinidadian heritage. He received his Post-Secondary education at Ryerson University's Radio and Television program and finished by writing, producing, and starring in an original pilot. Nathan has been fortunate enough to be working consistently.",
+      "link": "nathan_mitchell",
+      "films": [
+        {"title": "The Marine 5: Battleground", "credit": "Cole", "year": "2017"},
+        {"title": "Le destin au bout du fil", "credit": "Zack", "year": "2017"},
+        {"title": "Twist of Fate", "credit": "Zack", "year": "2016"},
+        {"title": "Eaters", "credit": "Producer", "year": "2015"},
+        {"title": "17 Miracles", "credit": "Capt. James G. Willie", "year": "2011"},
+        {"title": "Emma Smith: My Story", "credit": "Joseph Smith", "year": "2008"}
+      ],
+      "tv": [
+        {"title": "The Boys", "credit": "Black Noir", "year": "2019"},
+        {"title": "Flashpoint", "credit": "Sidney", "year": "2010"}
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Karl Urban",
+      "role": "as Butcher",
+      "img": "https://resizing.flixster.com/0_5s9SR41rBppiJ21dJZGNVBwSQ=/280x250/v1.cjs0ODE4MjtqOzE4NDUwOzEyMDA7MjgwOzI1MA",
+      "bio": "Originally from Wellington, New Zealand, Karl Urban now lives in Auckland. Born on June 7, 1972, he is the son of a leather-goods manufacturer (who had hoped that Karl would follow in his footsteps). His first acting role was when he was 8 -- he had a line on a television series. However, he did not act again until after high school.",
+      "link": "karl_urban",
+      "films": [
+        {"title": "Bent", "credit": "Danny Gallagher", "year": "2018"},
+        {"title": "Snowblind", "credit": "Actor", "year": "2018"},
+        {"title": "Star Trek 4", "credit": "Bones", "year": "2018"},
+        {"title": "Hangman", "credit": "Detective Ruiney", "year": "2017"},
+        {"title": "Thor: Ragnarok", "credit": "Skurge", "year": "2017"},
+        {"title": "Acts of Vengeance", "credit": "Strode", "year": "2017"},
+        {"title": "Pete's Dragon", "credit": "Gavin", "year": "2016"},
+        {"title": "Star Trek Beyond", "credit": "Bones", "year": "2016"},
+        {"title": "The Loft", "credit": "Vincent Stevens", "year": "2015"}
+      ],
+      "tv": [
+        {"title": "The Boys", "credit": "Butcher", "year": "2019"},
+        {"title": "The Talk", "credit": "Guest", "year": "2016"},
+        {"title": "Almost Human", "credit": "John Kennex", "year": "2014"},
+        {"title": "Late Night With Jimmy Fallon", "credit": "Guest", "year": "2012"}
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Laz Alonso",
+      "role": "as Mother's Milk",
+      "img": "https://resizing.flixster.com/iacFF4u86lPmQ0nAhuhhFTxJzT8=/385x600/v1.cjszOTE1MTtqOzE4NDUwOzEyMDA7Mzg1OzYwMA",
+      "bio": "Chosen as one of Variety's \"Top Ten Actors to Watch\" and part of the new breed of leading men in Hollywood, Laz Alonso is starring in Amazon Prime's series THE BOYS. He can also be seen playing opposite Gabrielle Union and Jessica Alba in their new series LA'S FINEST.",
+      "link": "laz_alonso",
+      "films": [
+        {"title": "Armed", "credit": "Jessie ", "year": "2018"},
+        {"title": "Traffik", "credit": "Darren Cole", "year": "2018"},
+        {"title": "Detroit", "credit": "Actor", "year": "2017"},
+        {"title": "Battle of the Year", "credit": "Actor", "year": "2013"},
+        {"title": "Straw Dogs", "credit": "John Burke", "year": "2011"},
+        {"title": "Jumping the Broom", "credit": "Jason Taylor", "year": "2011"},
+        {"title": "Down For Life", "credit": "Officer Barber", "year": "2011"},
+        {"title": "Just Wright", "credit": "Mark Matthews", "year": "2010"},
+        {"title": "Avatar", "credit": "Tsu 'tey", "year": "2009"}
+      ],
+      "tv": [
+        {"title": "The Boys", "credit": "Mother's Milk", "year": "2019"},
+        {"title": "The Bobby Brown Story", "credit": "Louil Silas Jr", "year": "2018"},
+        {"title": "The Mysteries of Laura", "credit": "Billy Soto Billy Sands", "year": "2016"},
+        {"title": "The Wendy Williams Show", "credit": "Guest", "year": "2014"}
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Tomer Kapon",
+      "role": "as Frenchie",
+      "img": "https://m.media-amazon.com/images/M/MV5BYWI1ZWVkMjAtNTZhOS00ZGZiLWFjMzEtNzNlYTVhMDBmYjZjXkEyXkFqcGdeQXVyODEwOTI5OTc@._V1_UY317_CR175,0,214,317_AL_.jpg",
+      "bio": "Tomer Capon was born on July 15, 1985 in Israel. He is an actor, known for One Week and a Day (2016), The Boys (2019) and Fauda (2015).",
+      "link": "tomer_kapon",
+      "films": [
+        {"title": "One Week and a Day (Shavua ve Yom)", "credit": "Zooler ", "year": "2017"},
+        {"title": "A Tale of Love and Darkness", "credit": "The Pioneer", "year": "2016"},
+        {"title": "Wedding Doll (Hatuna Meniyar)", "credit": "Chen", "year": "2016"}
+      ],
+      "tv": [
+        {"title": "The Boys", "credit": "Frenchie", "year": "2019"},
+        {"title": "When Heroes Fly", "credit": "Aviv Danino", "year": "2019"},
+        {"title": "Fauda", "credit": "Boaz", "year": "2018"},
+        {"title": "Of Kings and Prophets", "credit": "Joab", "year": "2016"}
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Karen Fukuhara",
+      "role": "as The Female",
+      "img": "https://resizing.flixster.com/LcJZv24PfeVbD6eCYISi0nCVVH4=/529x529/v1.cjs0ODAzNTtqOzE4NDUwOzEyMDA7NTI5OzUyOQ",
+      "bio": "Karen Fukuhara is a Japanese-American actress from Los Angeles, California. She is fluent in English and Japanese. While attending UCLA, she continued to work on numerous shows in Japan, notably the Disney Channel. She is a martial arts champion, trained in karate and sword fighting.",
+      "link": "karen_fukuhara",
+      "films": [
+        {"title": "Stray", "credit": "Nori", "year": "2019"},
+        {"title": "Suicide Squad", "credit": "Katana", "year": "2016"}
+      ],
+      "tv": [
+        {"title": "Kipo and the Age of Wonderbeasts", "credit": "Voice", "year": "2020"},
+        {"title": "Craig of the Creek", "credit": "Voice", "year": "2020"},
+        {"title": "The Boys", "credit": "The Female", "year": "2019"},
+        {"title": "Conan", "credit": "Guest", "year": "2016"}
       ]
     }
   ]

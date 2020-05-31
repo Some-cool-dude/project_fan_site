@@ -1,4 +1,6 @@
 /* eslint-disable no-undef */
+const Dotenv = require('dotenv-webpack');
+
 module.exports = {
   entry: './src/index.js',
   module: {
@@ -26,6 +28,9 @@ module.exports = {
     publicPath: '/',
     filename: 'bundle.js',
   },
+  plugins: [
+    new Dotenv()
+  ],
   devServer: {
     contentBase: './dist',
     historyApiFallback: true,

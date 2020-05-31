@@ -40,7 +40,7 @@ class Main extends React.Component {
               <h2 className="cast__text">Cast</h2>
               <div className="line"></div>
           </div>
-          <CelebList limit={4} />
+          <CelebList limit={"4"} />
           <a className="more" href={`/celebrities`}>show more <i className="fa fa-caret-down"></i></a>
         </div>
       </main>
