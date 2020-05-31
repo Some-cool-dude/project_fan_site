@@ -11,7 +11,6 @@ class Posts extends React.Component {
       loading: true,
       posts: [],
       modal: false,
-      err: null,
       pages: 0,
       array: [],
       isActive: 1,
@@ -58,13 +57,9 @@ class Posts extends React.Component {
         this.prevArr.push(pages - i);
       }
       this.prevArr = this.prevArr.reverse();
-      this.setState({posts: res.data, loading: false, err: null, modal: false, pages: pages, array: array, isActive: 1});
+      this.setState({posts: res.data, loading: false, modal: false, pages: pages, array: array, isActive: 1});
     })
-    .catch(err => {
-      if(!axios.isCancel(err)) {
-        this.setState({posts: [], loading: false,  err: err.message, modal: false ,array: []});
-      }
-    });
+    .catch(err => console.log(err));
   }
 
   openModal = (id) => {
@@ -99,20 +94,14 @@ class Posts extends React.Component {
       }
     }
     catch(err) {
-      if(!axios.isCancel(err)) {
-        this.setState({posts: [], loading: false,  err: err.message, array: []});
-      }
+      console.log(err);
     }
   }
 
   delete = (id) => {
     axios.delete(`/api/posts/${id}`, {cancelToken: this.signal.token})
     .then(this.getPosts())
-    .catch(err => {
-      if(!axios.isCancel(err)) {
-        this.setState({posts: [], loading: false,  err: err.message, array: []});
-      }
-    });
+    .catch(err => console.log(err));
   }
 
   goToPage(page) {
@@ -153,13 +142,9 @@ class Posts extends React.Component {
   newPage = (page, array) => {
     axios.get(`/api/posts?title_like=${this.searchValue}&_page=${page}&_limit=${this.quantity}&_sort=date&_order=${this.sort}`, {cancelToken: this.signal.token})
     .then(res => {
-        this.setState({isActive: page, array: array, posts: res.data, modal: false, loading: false, err: null});
+        this.setState({isActive: page, array: array, posts: res.data, modal: false, loading: false});
     })
-    .catch(err => {
-      if(!axios.isCancel(err)) {
-        this.setState({posts: [], loading: false,  err: err.message, modal: false, array: []});
-      }
-    });
+    .catch(err => console.log(err));
   }
 
   changeSort = (event) => {
@@ -178,8 +163,7 @@ class Posts extends React.Component {
         <ul className="breadcrumb">
             <li className="breadcrumb__elem"><a className="breadcrumb__link" href="/">Home</a></li>
             <li className="breadcrumb__elem">Posts</li>
-        </ul> 
-        {this.state.err && <h2 className="error">{this.state.err}</h2>}
+        </ul>
         {this.state.modal &&
         <div ref={this.modal} className="modal">
             <div className="modal__content">

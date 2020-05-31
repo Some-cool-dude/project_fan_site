@@ -22,12 +22,12 @@ html, body {
     font-family: $myFont;
 
     &__title {
-      max-width: 940px;
+      max-width: $myWidth;
     }
 
     &__text {
       @include text($color: black);
-      max-width: 940px;
+      max-width: $myWidth;
     }
 }
 
@@ -139,7 +139,7 @@ html, body {
   list-style: none;
   background-color: #eee;
   width: 100%;
-  max-width: 940px;
+  max-width: $myWidth;
   box-sizing: border-box;
 
   &__elem+&__elem:before {

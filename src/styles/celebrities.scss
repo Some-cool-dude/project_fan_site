@@ -2,7 +2,7 @@
 
 .celebrities {
     @include common-flex($wrap: wrap, $justify : flex-start);
-    max-width: 940px;
+    max-width: $myWidth;
 }
 
 .celebrity {

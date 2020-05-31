@@ -3,7 +3,7 @@ import axios from 'axios';
 import PropTypes from 'prop-types';
 import Cookies from 'universal-cookie';
 import md5 from 'crypto-js/md5';
-import './styles/login.scss';
+import './styles/auth.scss';
 
 class Signup extends React.Component {
   constructor(props) {
@@ -149,16 +149,16 @@ class Signup extends React.Component {
   render() {
     return (
        <main className="content">
-         <div className="login">
-          <form className="login__form" onSubmit={this.handleSubmit}>
+         <div className="auth">
+          <form className="auth__form" onSubmit={this.handleSubmit}>
               <h1>Sign up</h1>
               {this.state.errorMessage && <h1 className="error">{this.state.errorMessage}</h1>}
               <div>
               <label htmlFor="email"><b>Email</b></label>
-              <input className="login__email" type="text" placeholder="example@email.some" onChange={this.changeEmail} name="email" />
+              <input className="auth__email" type="text" placeholder="example@email.some" onChange={this.changeEmail} name="email" />
               {this.state.invalidEmail && <p className="error">{this.state.invalidEmail}</p>}
               <label htmlFor="psw"><b>Password</b></label>
-              <input className="login__psw" type="password" placeholder="********" onChange={this.changePassword} onFocus={this.handleFocus} onBlur={this.handleBlur} name="password" />
+              <input className="auth__psw" type="password" placeholder="********" onChange={this.changePassword} onFocus={this.handleFocus} onBlur={this.handleBlur} name="password" />
               </div>
               {this.state.invalidPassword && <p className="error">{this.state.invalidPassword}</p>}
               {this.state.validate && 
@@ -169,9 +169,9 @@ class Signup extends React.Component {
                     <p className={this.state.length}>Minimum <b>8 characters</b></p>
                 </div>}
               <label htmlFor="psw"><b>Repeat password</b></label>
-              <input className="login__psw" type="password" placeholder="********" onChange={this.repeatPassword} name="repeat" />
-              <p>Already have an account? <a className="login__change" href="/login" onClick={this.redirect}>Log in</a>.</p>
-              <button className="login__btn" type="submit">Sign up</button>
+              <input className="auth__psw" type="password" placeholder="********" onChange={this.repeatPassword} name="repeat" />
+              <p>Already have an account? <a className="auth__change" href="/login" onClick={this.redirect}>Log in</a>.</p>
+              <button className="auth__btn" type="submit">Sign up</button>
           </form>
          </div>
        </main>

@@ -1,7 +1,7 @@
 @import 'variable.scss';
 
 .calendar {
-    max-width: 940px;
+    max-width: $myWidth;
     border-collapse: collapse;
     table-layout: fixed;
     width: 100%;

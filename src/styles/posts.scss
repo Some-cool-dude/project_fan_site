@@ -3,7 +3,7 @@
 .post {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 940px;
+    width: $myWidth;
     border-radius: 5px;
     margin-bottom: 20px;
 
@@ -151,6 +151,16 @@
 
   .posts-action {
       @include common-flex($justify: flex-start);
-      width: 940px;
+      width: $myWidth;
       align-items: center;
   }
+
+  @media only screen and (max-width: $myWidth) {
+    .post {
+        width: 100%;
+    }
+
+    .posts-action {
+        width: 100%;
+    }
+}

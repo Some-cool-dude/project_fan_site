@@ -25,7 +25,6 @@ class Calendar extends React.Component {
         this.currentMonth = 0;
         this.value = '';
         this.id = 0;
-        this.err = null;
         this.modal = React.createRef();
         this.signal = axios.CancelToken.source();
     }
@@ -62,16 +61,9 @@ class Calendar extends React.Component {
         axios.get(`/api/notes?userId=${this.props.cookies.get('id')}&month=${this.month}&year=${this.year}&_sort=day&_order=asc`, {cancelToken: this.signal.token})
         .then(res => {
             this.notes = res.data;
-            this.err = null;
             this.fillCalendar();
         })
-        .catch(err => {
-            if (!axios.isCancel(err)) {
-                this.err = err.message;
-                this.notes = [];
-                this.fillCalendar();
-            }
-        });
+        .catch(err => console.log(err));
     }
 
     fillArray = () => {
@@ -215,15 +207,9 @@ class Calendar extends React.Component {
                     this.notes[i] = res.data;
                 }
             }
-            this.err = null;
             this.setState({modal: false, update: true})
         })
-        .catch(err => {
-            if (!axios.isCancel(err)) {
-                this.err = err.message;
-                this.setState({modal: false, update: false});
-            }
-        });
+        .catch(err => console.log(err));
     }
 
   render() { 
@@ -235,7 +221,6 @@ class Calendar extends React.Component {
             </ul> 
             {this.state.loading ? <div className="loader"></div> :
             <>
-            {this.err && <h2 className="error">{this.err}</h2>}
             {this.state.modal &&
                 <div ref={this.modal} className="modal">
                     <div className="modal__content">

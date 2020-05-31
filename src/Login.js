@@ -5,7 +5,7 @@ import Cookies from 'universal-cookie';
 import md5 from 'crypto-js/md5';
 import {GoogleLogin} from 'react-google-login';
 import FacebookLogin from 'react-facebook-login';
-import './styles/login.scss';
+import './styles/auth.scss';
 
 class Login extends React.Component {
   constructor(props) {
@@ -128,19 +128,19 @@ class Login extends React.Component {
     console.log(process.env.clientId)
     return (
        <main className="content">
-         <div className="login">
-          <form className="login__form" onSubmit={this.handleSubmit}>
+         <div className="auth">
+          <form className="auth__form" onSubmit={this.handleSubmit}>
               <h1>Login</h1>
               {this.state.errorMessage && <h1 className="error">{this.state.errorMessage}</h1>}
               <div>
               <label htmlFor="email"><b>Email</b></label>
-              <input className="login__email" type="text" placeholder="example@email.some" onChange={this.changeEmail} name="email" />
+              <input className="auth__email" type="text" placeholder="example@email.some" onChange={this.changeEmail} name="email" />
               {this.state.invalidEmail && <p className="error">{this.state.invalidEmail}</p>}
               <label htmlFor="psw"><b>Password</b></label>
-              <input className="login__psw" type="password" placeholder="********" onChange={this.changePassword} name="password" />
+              <input className="auth__psw" type="password" placeholder="********" onChange={this.changePassword} name="password" />
               </div>
               {this.state.invalidPassword && <p className="error">{this.state.invalidPassword}</p>}
-              <p>Create new account? <a className="login__change" href="/signup" onClick={this.redirect}>Sign up</a>.</p>
+              <p>Create new account? <a className="auth__change" href="/signup" onClick={this.redirect}>Sign up</a>.</p>
               <GoogleLogin
                 className="google-btn"
                 clientId={process.env.clientId}
@@ -157,7 +157,7 @@ class Login extends React.Component {
                 scope="public_profile"
                 textButton=" Login with Facebook"
                 icon="fa-facebook" />
-              <button className="login__btn" type="submit">Login</button>
+              <button className="auth__btn" type="submit">Login</button>
           </form>
          </div>
        </main>

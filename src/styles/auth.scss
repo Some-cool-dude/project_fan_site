@@ -1,8 +1,8 @@
-.login {
+.auth {
     margin-top: 100px;
 
     &__form {
-        width: 400px;
+        max-width: 400px;
     }
 
     &__email, &__psw {

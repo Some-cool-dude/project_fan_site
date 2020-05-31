@@ -12,7 +12,13 @@
     }
 
     &__map {
-        width: 940px;
+        width: $myWidth;
         margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: $myWidth) {
+    .contact__map {
+        width: 100%;
     }
 }

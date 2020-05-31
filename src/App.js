@@ -14,6 +14,7 @@ import Calendar from './Calendar';
 import Contact from './Contact';
 import Celebrities from './Celebrities';
 import Celebrity from './Celebrity';
+import PageNotFound from './PageNotFound';
 import './styles/style.scss';
 
 class App extends React.Component {
@@ -55,6 +56,7 @@ class App extends React.Component {
           <Route path="/celebrities" component={Celebrities} />
           <Route path="/calendar" render={(props) => <Calendar {...props} cookies={this.cookies} />} />
           <Route path="/contact" component={Contact} />
+          <Route component={PageNotFound} />
         </Switch>
         {this.state.show && <Footer />}
       </Router>
