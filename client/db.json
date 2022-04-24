@@ -6,7 +6,7 @@
       "password": "d914e3ecf6cc481114a3f534a5faf90b",
       "ava": "http://icons.iconarchive.com/icons/diversity-avatars/avatars/1024/batman-icon.png",
       "socialType": "none",
-      "social-id": 0
+      "socialId": 0
     },
     {
       "email": "example@email.com",
@@ -17,8 +17,11 @@
       "id": 2
     },
     {
-      "socialId": "107866337614176",
-      "socialType": "facebook",
+      "email": "aaaa@aaa.aaa",
+      "socialType": "none",
+      "socialId": 0,
+      "password": "c39c203ad365b47682b672215bddd2ac",
+      "ava": "https://www.shareicon.net/data/2015/09/18/103159_user_512x512.png",
       "id": 3
     }
   ],
@@ -46,6 +49,14 @@
       "year": 2020,
       "text": "save",
       "id": 5
+    },
+    {
+      "userId": 1,
+      "day": 22,
+      "month": "April",
+      "year": 2022,
+      "text": "A",
+      "id": 6
     }
   ],
   "posts": [
